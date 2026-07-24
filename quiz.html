@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stdent Resource Hub</title>
+    <link rel="stylesheet"
+    href="style.css">
+</head>
+
+
+<body>
+    <h1>Student Resource Hub</h1>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="notes.html">Notes</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <h2 class="quiz-title">Quiz</h2>
+    <p class="quiz-text">Test your knowledge with subject-wise quizzes and improve your learning through practice.</p>
+
+    <h2 class="quiz-heading">Subject-wise Quizzes</h2>
+    <div>
+        <h3>Mathematics</h3>
+        <p>Practice calculations, formulas, and problem-solving questions.</p>
+        <a href="math.quiz.html">
+            <button>Start Quiz</button>
+            
+        </a>
+        
+</div>
+<div>
+        <h3>Science</h3>
+        <p>Test your understanding of Physics, Chemistry, and Biology concepts.</p>
+        <a href="science.quiz.html">
+            <button>Start Quiz</button>
+        </a>
+</div>
+<div>
+        <h3>Social Science</h3>
+        <p>MCQs from History, Geography, Civics, and Economics.</p>
+        <a href="social science.quiz.html">
+            <button>Start Quiz</button>
+        </a>
+</div>
+<br><br>
+<button onclick="checkQuiz()">Submit Quiz</button>
+<p id="result"></p>
+    <script src="sript.js"></script>
+</body>
+</html>
